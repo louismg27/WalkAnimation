@@ -18,7 +18,7 @@ class Animacion:
         self.__ancho = 900
         self.__alto = 480
         self.__pantalla = pygame.display.set_mode((self.__ancho, self.__alto), 0, 32)
-        pygame.display.set_caption("Walking Animation")
+        pygame.display.set_caption("Animacion de caminada")
 
         # Cargamos archivos de imagen y de fondo
         self.__imagen = pygame.image.load(os.path.join(*IMAGE_FILE)).convert_alpha()
